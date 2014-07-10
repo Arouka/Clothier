@@ -1,11 +1,39 @@
-[22:30:05] [main/INFO]: Setting user: ForgeDevName
-[22:30:06] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:30:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Clothier
-[22:30:12] [Sound Library Loader/INFO]: Sound engine started
-[22:30:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:30:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:30:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Clothier
-[22:30:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:30:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:30:16] [Sound Library Loader/INFO]: Sound engine started
-[22:31:57] [Client thread/INFO]: Stopping!
+[23:14:00] [main/INFO]: Setting user: ForgeDevName
+[23:14:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:14:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Clothier
+[23:14:09] [Sound Library Loader/INFO]: Sound engine started
+[23:14:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:14:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:14:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Clothier
+[23:14:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:14:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:14:12] [Sound Library Loader/INFO]: Sound engine started
+[23:15:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:15:09] [Server thread/INFO]: Generating keypair
+[23:15:09] [Server thread/INFO]: Preparing start region for level 0
+[23:15:10] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:15:10] [Server thread/INFO]: ForgeDevName[local:E:d4cf89e2] logged in with entity id 138 at (-429.716607897848, 9.855636005057137, 1285.7542551388094)
+[23:15:10] [Server thread/INFO]: ForgeDevName joined the game
+[23:15:42] [Server thread/INFO]: Saving and pausing game...
+[23:15:42] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Overworld
+[23:15:42] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Nether
+[23:15:42] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/The End
+[23:16:01] [Server thread/INFO]: Saving and pausing game...
+[23:16:01] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Overworld
+[23:16:01] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Nether
+[23:16:01] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/The End
+[23:16:07] [Server thread/INFO]: Saving and pausing game...
+[23:16:07] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Overworld
+[23:16:07] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Nether
+[23:16:07] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/The End
+[23:16:15] [Server thread/INFO]: Saving and pausing game...
+[23:16:15] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Overworld
+[23:16:15] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Nether
+[23:16:15] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/The End
+[23:16:16] [Server thread/INFO]: Stopping server
+[23:16:16] [Server thread/INFO]: Saving players
+[23:16:16] [Server thread/INFO]: Saving worlds
+[23:16:16] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Overworld
+[23:16:16] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/Nether
+[23:16:16] [Server thread/INFO]: Saving chunks for level 'Silken Soils'/The End
+[23:16:24] [Client thread/INFO]: Stopping!
