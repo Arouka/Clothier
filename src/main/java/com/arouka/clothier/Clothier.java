@@ -1,5 +1,6 @@
 package com.arouka.clothier;
 
+import com.arouka.clothier.configuration.ConfigurationHandler;
 import com.arouka.clothier.proxy.IProxy;
 import com.arouka.clothier.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -14,24 +15,22 @@ public class Clothier {
     @Mod.Instance("Clothier")
     public static Clothier instance;
 
-    @SidedProxy(clientSide = "com.arouka.clothier.proxy.ClientProxy", serverSide = "com.arouka.clothier.proxy.ServerProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
     @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
+    public void preInit(FMLPreInitializationEvent event) {
+
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+    }
+
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event) {
 
     }
 
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-
-    }
-
-    @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent event)
-    {
+    public void postInit(FMLPostInitializationEvent event) {
 
     }
 
