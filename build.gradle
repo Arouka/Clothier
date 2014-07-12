@@ -22,7 +22,7 @@ group= "com.arouka.clothier" // http://maven.apache.org/guides/mini/guide-naming
 archivesBaseName = "Clothier"
 
 minecraft {
-    version = "1.7.10-10.13.0.1175"
+    version = "1.7.10-10.13.0.1180"
     assetDir = "eclipse/assets"
 }
 

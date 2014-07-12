@@ -1,15 +1,16 @@
 package com.arouka.clothier;
 
-import com.arouka.clothier.configuration.ConfigurationHandler;
+import com.arouka.clothier.handler.ConfigurationHandler;
 import com.arouka.clothier.proxy.IProxy;
 import com.arouka.clothier.reference.Reference;
+import com.arouka.clothier.utility.LogHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid= Reference.MOD_ID , name= Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid= Reference.MOD_ID , name= Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class Clothier {
 
     @Mod.Instance("Clothier")
@@ -22,15 +23,20 @@ public class Clothier {
     public void preInit(FMLPreInitializationEvent event) {
 
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        LogHelper.info("Materials Gathered!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
 
+        LogHelper.info("Machines Ready!");
+
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
+
+        LogHelper.info("Outfit Complete!");
 
     }
 
