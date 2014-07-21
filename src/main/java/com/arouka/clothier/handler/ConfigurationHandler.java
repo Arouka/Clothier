@@ -19,6 +19,7 @@ public class ConfigurationHandler {
         if (configuration == null) {
 
             configuration = new Configuration(configFile);
+            loadConfiguration();
         }
     }
 
@@ -31,7 +32,7 @@ public class ConfigurationHandler {
         }
     }
 
-    public void loadConfiguration(){
+    private static void loadConfiguration(){
 
        funValue = configuration.getBoolean("I Like Pants", Configuration.CATEGORY_GENERAL, false, "Pointless stuff woohoo");
 

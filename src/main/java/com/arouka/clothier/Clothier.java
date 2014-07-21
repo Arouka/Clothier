@@ -1,9 +1,11 @@
 package com.arouka.clothier;
 
 import com.arouka.clothier.handler.ConfigurationHandler;
+import com.arouka.clothier.init.ModItems;
 import com.arouka.clothier.proxy.IProxy;
 import com.arouka.clothier.reference.Reference;
 import com.arouka.clothier.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -23,7 +25,10 @@ public class Clothier {
     public void preInit(FMLPreInitializationEvent event) {
 
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Materials Gathered!");
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
