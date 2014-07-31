@@ -1,6 +1,7 @@
 package com.arouka.clothier.item;
 
 
+import com.arouka.clothier.creativetab.CreativeTabClothier;
 import com.arouka.clothier.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +14,7 @@ public class ItemClothier extends Item {
     public ItemClothier() {
 
         super();
+        this.setCreativeTab(CreativeTabClothier.CLOTHIER_TAB);
     }
 
     @Override

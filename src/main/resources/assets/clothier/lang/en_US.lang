@@ -2,3 +2,7 @@
 #Item Localizations
 item.clothier:clothSpool.name=Spool of Cloth
 item.clothier:clothRoll.name=Roll of Cloth
+
+#Block Localizations
+tile.clothier:soap.name=Block of Soap
+tile.clothier:flubber.name=Flubber™

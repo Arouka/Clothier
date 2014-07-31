@@ -1,6 +1,7 @@
 package com.arouka.clothier;
 
 import com.arouka.clothier.handler.ConfigurationHandler;
+import com.arouka.clothier.init.ModBlocks;
 import com.arouka.clothier.init.ModItems;
 import com.arouka.clothier.proxy.IProxy;
 import com.arouka.clothier.reference.Reference;
@@ -29,6 +30,8 @@ public class Clothier {
         LogHelper.info("Materials Gathered!");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
