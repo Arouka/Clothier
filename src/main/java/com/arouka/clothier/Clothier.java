@@ -1,6 +1,7 @@
 package com.arouka.clothier;
 
 import com.arouka.clothier.handler.ConfigurationHandler;
+import com.arouka.clothier.init.ModArmor;
 import com.arouka.clothier.init.ModBlocks;
 import com.arouka.clothier.init.ModItems;
 import com.arouka.clothier.proxy.IProxy;
@@ -14,8 +15,8 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid= Reference.MOD_ID , name= Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
-public class Clothier {
-
+public class Clothier
+{
     @Mod.Instance("Clothier")
     public static Clothier instance;
 
@@ -23,8 +24,8 @@ public class Clothier {
     public static IProxy proxy;
 
     @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
-
+    public void preInit(FMLPreInitializationEvent event)
+    {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Materials Gathered!");
@@ -32,21 +33,19 @@ public class Clothier {
         ModItems.init();
 
         ModBlocks.init();
+
+        ModArmor.init();
     }
 
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event) {
-
+    public void init(FMLInitializationEvent event)
+    {
         LogHelper.info("Machines Ready!");
-
     }
 
     @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent event) {
-
+    public void postInit(FMLPostInitializationEvent event)
+    {
         LogHelper.info("Outfit Complete!");
-
     }
-
-
 }

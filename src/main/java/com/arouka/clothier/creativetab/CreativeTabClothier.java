@@ -6,20 +6,18 @@ import com.arouka.clothier.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class CreativeTabClothier {
+public class CreativeTabClothier
+{
 
-    public static final CreativeTabs CLOTHIER_TAB = new CreativeTabs(Reference.MOD_ID) {
+    public static final CreativeTabs CLOTHIER_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
+    {
 
         @Override
-        public Item getTabIconItem() {
-
+        public Item getTabIconItem()
+        {
             return ModItems.clothSpool;
         }
 
-        @Override
-        public String getTranslatedTabLabel() {
 
-            return "Clothier";
-        }
     };
 }

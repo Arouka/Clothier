@@ -1,44 +1,43 @@
 package com.arouka.clothier.block;
 
 
+import com.arouka.clothier.reference.Names;
 import net.minecraft.entity.Entity;
 import net.minecraft.world.World;
 
-public class BlockFlubber extends BlockClothier {
+public class BlockFlubber extends BlockClothier
+{
 
-    public BlockFlubber() {
-
+    public BlockFlubber()
+    {
         super();
-        this.setBlockName("flubber");
+        this.setBlockName(Names.Blocks.FLUBBER);
         this.setBlockTextureName("");
         this.setStepSound(soundTypeSnow);
         this.setHardness(0.8F);
         this.opaque = false;
     }
 
-    public void onEntityWalking(World world, int x, int y, int z, Entity entity) {
-
+    public void onEntityWalking(World world, int x, int y, int z, Entity entity)
+    {
         entity.motionY += 2.25;
     }
 
-
-
-
     @Override
-    public boolean isOpaqueCube() {
-
+    public boolean isOpaqueCube()
+    {
         return false;
     }
 
     @Override
-    public boolean renderAsNormalBlock() {
-
+    public boolean renderAsNormalBlock()
+    {
         return false;
     }
 
     @Override
-    public int getRenderBlockPass() {
-
+    public int getRenderBlockPass()
+    {
         return 1;
     }
 }

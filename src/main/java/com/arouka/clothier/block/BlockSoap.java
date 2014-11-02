@@ -1,13 +1,15 @@
 package com.arouka.clothier.block;
 
 
+import com.arouka.clothier.reference.Names;
 
-public class BlockSoap extends BlockClothier {
+public class BlockSoap extends BlockClothier
+{
 
-    public BlockSoap() {
-
+    public BlockSoap()
+    {
         super();
-        this.setBlockName("soap");
+        this.setBlockName(Names.Blocks.SOAP);
         this.setBlockTextureName("");
         this.setStepSound(soundTypeSnow);
         this.setHardness(0.8F);
@@ -16,20 +18,20 @@ public class BlockSoap extends BlockClothier {
     }
 
     @Override
-    public boolean isOpaqueCube() {
-
+    public boolean isOpaqueCube()
+    {
         return false;
     }
 
     @Override
-    public boolean renderAsNormalBlock() {
-
+    public boolean renderAsNormalBlock()
+    {
         return false;
     }
 
     @Override
-    public int getRenderBlockPass() {
-
+    public int getRenderBlockPass()
+    {
         return 1;
     }
 }

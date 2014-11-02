@@ -1,8 +1,22 @@
+#CreativeTab Localizations
+itemGroup.clothier=Clothier
 
 #Item Localizations
 item.clothier:clothSpool.name=Spool of Cloth
 item.clothier:clothRoll.name=Roll of Cloth
+item.clothier:clubClub.name=Official "Clubbing with Clubs" Clubbing Club
+item.clothier:pattern.patternHelmet.name=Helmet Template
+item.clothier:pattern.patternChestplate.name=Chestplate Template
+item.clothier:pattern.patternLeggings.name=Leggings Template
+item.clothier:pattern.patternBoots.name=Boots Template
 
 #Block Localizations
 tile.clothier:soap.name=Block of Soap
 tile.clothier:flubber.name=Flubber™
+tile.clothier:toughLamp.name=Industrial Grade Lamp
+
+#Armor Localizations
+item.clothier:agateArmor_helm.name=Agate Helmet
+item.clothier:agateArmor_chest.name=Agate Chestplate
+item.clothier:agateArmor_legs.name=Agate Leggings
+item.clothier:agateArmor_boots.name=Agate Boots
