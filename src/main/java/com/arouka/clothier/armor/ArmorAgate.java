@@ -31,7 +31,7 @@ public class ArmorAgate extends ArmorClothier
     @Override
     public void damageArmor(EntityLivingBase entity, ItemStack stack, DamageSource source, int damage, int slot)
     {
-        return;
+        stack.damageItem(damage * 2, entity);
     }
     */
 

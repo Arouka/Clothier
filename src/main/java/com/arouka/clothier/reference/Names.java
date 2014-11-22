@@ -16,12 +16,16 @@ public class Names
         public static final String CLOTH = "clothRoll";
         public static final String SPOOL = "clothSpool";
         public static final String CLUB = "clubClub";
+        public static final String SOAPBAR = "soapBar";
         public static final String PATTERN = "pattern";
+        public static final String PATTERN_BLANK = "patternBlank";
         public static final String PATTERN_HELMET = "patternHelmet";
         public static final String PATTERN_CHESTPLATE = "patternChestplate";
         public static final String PATTERN_LEGGINGS = "patternLeggings";
         public static final String PATTERN_BOOTS = "patternBoots";
-        public static final String[] PATTERN_SUBTYPES = {PATTERN_HELMET, PATTERN_CHESTPLATE, PATTERN_LEGGINGS, PATTERN_BOOTS};
+        public static final String PATTERN_HORSE = "patternHorse";
+        public static final String PATTERN_TAPESTRY = "patternTapestry";
+        public static final String[] PATTERN_SUBTYPES = {PATTERN_BLANK, PATTERN_HELMET, PATTERN_CHESTPLATE, PATTERN_LEGGINGS, PATTERN_BOOTS, PATTERN_HORSE, PATTERN_TAPESTRY};
     }
 
     public static final class Armor

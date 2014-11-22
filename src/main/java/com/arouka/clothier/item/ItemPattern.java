@@ -34,7 +34,6 @@ public class ItemPattern extends ItemClothier
         return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", Names.Items.PATTERN);
     }
 
-    //STILL NOT WORKING PROPERLY BUT LESS AWKWARD NAME THAN BEFORE
     @Override
     public String getUnlocalizedName(ItemStack itemStack)
     {

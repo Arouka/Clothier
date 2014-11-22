@@ -4,6 +4,7 @@ import com.arouka.clothier.handler.ConfigurationHandler;
 import com.arouka.clothier.init.ModArmor;
 import com.arouka.clothier.init.ModBlocks;
 import com.arouka.clothier.init.ModItems;
+import com.arouka.clothier.init.Recipes;
 import com.arouka.clothier.proxy.IProxy;
 import com.arouka.clothier.reference.Reference;
 import com.arouka.clothier.utility.LogHelper;
@@ -40,6 +41,7 @@ public class Clothier
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        Recipes.init();
         LogHelper.info("Machines Ready!");
     }
 

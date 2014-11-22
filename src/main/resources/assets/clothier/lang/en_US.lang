@@ -5,10 +5,14 @@ itemGroup.clothier=Clothier
 item.clothier:clothSpool.name=Spool of Cloth
 item.clothier:clothRoll.name=Roll of Cloth
 item.clothier:clubClub.name=Official "Clubbing with Clubs" Clubbing Club
+item.clothier:soapBar.name=Bar of Soap
+item.clothier:pattern.patternBlank.name=Blank Pattern
 item.clothier:pattern.patternHelmet.name=Helmet Template
 item.clothier:pattern.patternChestplate.name=Chestplate Template
 item.clothier:pattern.patternLeggings.name=Leggings Template
 item.clothier:pattern.patternBoots.name=Boots Template
+item.clothier:pattern.patternHorse.name=Horse Tack Pattern
+item.clothier:pattern.patternTapestry.name= Tapestry Pattern
 
 #Block Localizations
 tile.clothier:soap.name=Block of Soap
