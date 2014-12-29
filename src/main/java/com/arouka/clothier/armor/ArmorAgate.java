@@ -19,21 +19,19 @@ public class ArmorAgate extends ArmorClothier
         super(Names.Armor.AGATE_ARMOR, ArmorMaterialAgate, armorType);
     }
 
-    //Removed until I figure out how ISpecialArmor works
-    /*
     @Override
     public ISpecialArmor.ArmorProperties getProperties(EntityLivingBase player, ItemStack armor, DamageSource source, double damage, int slot)
     {
-        return null;
+        return new ArmorProperties(0,0,0);
     }
 
 
     @Override
     public void damageArmor(EntityLivingBase entity, ItemStack stack, DamageSource source, int damage, int slot)
     {
-        stack.damageItem(damage * 2, entity);
+        this.setDamage(stack, this.getDamage(stack) + damage);
     }
-    */
+
 
     @Override
     public String getArmorTexture(ItemStack armorStack, Entity entity, int armorSlot, String type)

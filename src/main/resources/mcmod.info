@@ -14,6 +14,7 @@
   "logoFile": "assets/clothier/textures/logo/logo.png",
   "parent": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["Baubles"],
+  "useDependencyInformation": "true"
 }
 ]

@@ -19,9 +19,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.ISpecialArmor;
 import net.minecraftforge.common.util.EnumHelper;
 
-public abstract class ArmorClothier extends ItemArmor //implements ISpecialArmor
+public abstract class ArmorClothier extends ItemArmor implements ISpecialArmor
 {
     protected static ArmorMaterial ArmorMaterialAgate = EnumHelper.addArmorMaterial(Names.Armor.AGATE_ARMOR, 7, new int[]{2, 6, 3, 1}, 25);
+    protected static ArmorMaterial ArmorMaterialGoldArmor = EnumHelper.addArmorMaterial(Names.Armor.GOLDARMOR_ARMOR, 28, new int[]{2, 6, 4, 2}, 20);
 
     public ArmorClothier(String armorName, ArmorMaterial armorMaterial, ArmorType armorType)
     {
@@ -52,13 +53,12 @@ public abstract class ArmorClothier extends ItemArmor //implements ISpecialArmor
         itemIcon = iconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
     }
 
-    //Removed until I figure out how ISpecialArmor works
-   /* @Override
+    @Override
     public int getArmorDisplay(EntityPlayer player, ItemStack armor, int slot)
     {
         return this.getArmorMaterial().getDamageReductionAmount(slot);
     }
-    */
+
 
     protected String getArmorTypeName(Item item)
     {

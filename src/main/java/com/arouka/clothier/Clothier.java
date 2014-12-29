@@ -1,10 +1,7 @@
 package com.arouka.clothier;
 
 import com.arouka.clothier.handler.ConfigurationHandler;
-import com.arouka.clothier.init.ModArmor;
-import com.arouka.clothier.init.ModBlocks;
-import com.arouka.clothier.init.ModItems;
-import com.arouka.clothier.init.Recipes;
+import com.arouka.clothier.init.*;
 import com.arouka.clothier.proxy.IProxy;
 import com.arouka.clothier.reference.Reference;
 import com.arouka.clothier.utility.LogHelper;
@@ -29,19 +26,25 @@ public class Clothier
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Materials Gathered!");
 
         ModItems.init();
 
         ModBlocks.init();
 
         ModArmor.init();
+
+        LogHelper.info("Materials Gathered!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        TileEntities.init();
+
+        proxy.initRenderingAndTextures();
+
         Recipes.init();
+
         LogHelper.info("Machines Ready!");
     }
 

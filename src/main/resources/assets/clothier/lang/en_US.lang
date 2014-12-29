@@ -2,7 +2,22 @@
 itemGroup.clothier=Clothier
 
 #Item Localizations
-item.clothier:clothSpool.name=Spool of Cloth
+item.clothier:clothSpool.spoolWoolWhite.name=Spool of White Wool
+item.clothier:clothSpool.spoolWoolOrange.name=Spool of Orange Wool
+item.clothier:clothSpool.spoolWoolMagenta.name=Spool of Magenta Wool
+item.clothier:clothSpool.spoolWoolLightBlue.name=Spool of Light Blue Wool
+item.clothier:clothSpool.spoolWoolYellow.name=Spool of Yellow Wool
+item.clothier:clothSpool.spoolWoolLime.name=Spool of Lime Wool
+item.clothier:clothSpool.spoolWoolPink.name=Spool of Pink Wool
+item.clothier:clothSpool.spoolWoolGray.name=Spool of Gray Wool
+item.clothier:clothSpool.spoolWoolLightGray.name=Spool of Light Gray Wool
+item.clothier:clothSpool.spoolWoolCyan.name=Spool of Cyan Wool
+item.clothier:clothSpool.spoolWoolPurple.name=Spool of Purple Wool
+item.clothier:clothSpool.spoolWoolBlue.name=Spool of Blue Wool
+item.clothier:clothSpool.spoolWoolBrown.name=Spool of Brown Wool
+item.clothier:clothSpool.spoolWoolGreen.name=Spool of Green Wool
+item.clothier:clothSpool.spoolWoolRed.name=Spool of Red Wool
+item.clothier:clothSpool.spoolWoolBlack.name=Spool of Black Wool
 item.clothier:clothRoll.name=Roll of Cloth
 item.clothier:clubClub.name=Official "Clubbing with Clubs" Clubbing Club
 item.clothier:soapBar.name=Bar of Soap
@@ -18,9 +33,17 @@ item.clothier:pattern.patternTapestry.name= Tapestry Pattern
 tile.clothier:soap.name=Block of Soap
 tile.clothier:flubber.name=Flubber™
 tile.clothier:toughLamp.name=Industrial Grade Lamp
+tile.clothier:man.name=Mannequin
 
 #Armor Localizations
 item.clothier:agateArmor_helm.name=Agate Helmet
 item.clothier:agateArmor_chest.name=Agate Chestplate
 item.clothier:agateArmor_legs.name=Agate Leggings
 item.clothier:agateArmor_boots.name=Agate Boots
+item.clothier:goldArmorArmor_helm.name=Gold Helmet Helmet
+item.clothier:goldArmorArmor_chest.name=Gold Chestplate Chestplate
+item.clothier:goldArmorArmor_legs.name=Gold Leggings Leggings
+item.clothier:goldArmorArmor_boots.name=Gold Boots Boots
+
+#Bauble Localizations
+item.clothier:panicNecklace.name=Panic Necklace
